@@ -1,0 +1,46 @@
+{
+  "name": "text-highlight",
+  "version": "0.1.0",
+  "description": "Highlights text in string",
+  "main": "build/index.js",
+  "peerDependencies": {
+    "react": "^16.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "react": "^16.5.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.4",
+    "webpack": "^4.21.0",
+    "webpack-cli": "^3.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benrei/text-highlight.git"
+  },
+  "keywords": [
+    "text",
+    "highlight",
+    "search",
+    "react",
+    "jsx",
+    "html"
+  ],
+  "author": "Benjamin Reiersølmoen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benrei/text-highlight/issues"
+  },
+  "homepage": "https://github.com/benrei/text-highlight#readme"
+}
